@@ -1,0 +1,68 @@
+﻿col|col|col|col|col|col|col|col|col|col|col|col|col|col|col
+"2023-10-28 12:00:00|2023-10-28 12:15:00|42|17|99|Product Launch|12345|Привет, мир!|100%|Déjà vu|Pipe|Separated|Data|With|Special@Characters"
+2023-10-28 12:01:00|2023-10-28 12:16:00|21|8|76|Financial Report|67890|Data#Analytics|80%|Testing✓|Market|Research|Data|Analysis@Sample
+2023-10-28 12:02:00|2023-10-28 12:17:00|60|33|42|Machine Learning|13579|特殊*字符|50%|Übermensch✓|Big Data|Processing|Advanced|AI@Tech
+2023-10-28 12:03:00|2023-10-28 12:18:00|12|5|63|Sales Forecast|24680|Prüfung!Daten|10%|Testing✓|Customer|Support|Multilingual@Data
+2023-10-28 12:04:00|2023-10-28 12:19:00|99|24|37|Quarterly Report|10203|Ειδικός^Στήλη|90%|Déjà vu|Data|With|Специални^Символи|For&Analysis
+2023-10-28 12:05:00|2023-10-28 12:20:00|73|31|88|Marketing Campaign|11223|Column#3|30%|Testing✓|Customer|Feedback|Data|Sample@Data#Metrics
+2023-10-28 12:06:00|2023-10-28 12:21:00|28|11|55|Research & Development|54321|Column_5|70%|Übermensch✓|Market|Growth|Data|Analysis
+2023-10-28 12:07:00|2023-10-28 12:22:00|51|19|69|Quality Assurance|98765|Col-7|20%|Testing✓|Product|Launch|Market@Data
+2023-10-28 12:08:00|2023-10-28 12:23:00|15|6|47|Customer Feedback|56789|Col#8|60%|Déjà vu|Sales|Report|Data@Analytics
+2023-10-28 12:09:00|2023-10-28 12:24:00|33|13|61|Product Development|10203|العربية@عنوان|40%|Testing✓|Financial|Data|With@Special@Characters
+2023-10-28 12:10:00|2023-10-28 12:25:00|88|37|51|Market Analysis|76845|पूरी दुनिया|85%|Übermensch✓|Marketing|Research|Data|Insights
+2023-10-28 12:11:00|2023-10-28 12:26:00|20|9|44|Strategic Planning|53127|中文字符|95%|Testing✓|Sales|Data|Customer@Feedback
+2023-10-28 12:12:00|2023-10-28 12:27:00|67|25|74|Quarterly Earnings|19273|Español!Datos|70%|Déjà vu|Product|Launch|Data@Metrics
+2023-10-28 12:13:00|2023-10-28 12:28:00|25|10|46|Inventory Management|10928|Süper^Özel|60%|Testing✓|Supply|Chain|Data@Analysis
+2023-10-28 12:14:00|2023-10-28 12:29:00|48|16|67|Customer Engagement|83729|テスト!データ|80%|Übermensch✓|Market|Research|Data@Insights
+2023-10-28 12:15:00|2023-10-28 12:30:00|31|14|55|Supply Chain Management|17482|Col-7|45%|Testing✓|Financial|Data|Multilingual@Data
+2023-10-28 12:16:00|2023-10-28 12:31:00|69|29|72|Data Analytics|64921|معطيات^خاصة|30%|Déjà vu|Market|Growth|Data@Analysis
+2023-10-28 12:17:00|2023-10-28 12:32:00|14|7|37|Quality Control|28219|特殊*符號|70%|Testing✓|Product|Launch|Customer@Data
+2023-10-28 12:18:00|2023-10-28 12:33:00|59|22|64|Customer Insights|91473|Column#3|80%|Übermensch✓|Customer|Feedback|Data|Sample@Data
+2023-10-28 12:19:00|2023-10-28 12:34:00|36|15|68|Market Research|47652|Column_5|60%|Testing✓|Market|Analysis|Data|Reports
+2023-10-28 12:20:00|2023-10-28 12:35:00|73|31|88|Annual Report|25681|Col#8|40%|Déjà vu|Marketing|Data|With@Special@Characters
+2023-10-28 12:21:00|2023-10-28 12:36:00|37|16|59|Business Strategy|97363|العربية@عنوان|90%|Übermensch✓|Business|Growth|Data|Strategies
+2023-10-28 12:22:00|2023-10-28 12:37:00|85|34|49|Competitive Analysis|58291|पूरी दुनिया|75%|Testing✓|Competitor|Data|Market@Research
+2023-10-28 12:23:00|2023-10-28 12:38:00|22|11|47|Sales Performance|13482|中文字符|65%|Déjà vu|Sales|Data|Performance@Metrics
+2023-10-28 12:24:00|2023-10-28 12:39:00|60|26|72|Marketing Strategies|67293|Español!Datos|50%|Testing✓|Marketing|Data|Strategy@Data
+2023-10-28 12:25:00|2023-10-28 12:40:00|29|12|53|Data Quality|89123|Süper^Özel|80%|Übermensch✓|Data|Quality|Data@Analysis
+2023-10-28 12:26:00|2023-10-28 12:41:00|75|35|76|Product Inventory|37572|テスト!データ|90%|Testing✓|Product|Inventory|Data@Insights
+2023-10-28 12:27:00|2023-10-28 12:42:00|39|18|62|Financial Data|12735|معطيات^خاصة|30%|Déjà vu|Financial|Data|Metrics
+2023-10-28 12:28:00|2023-10-28 12:43:00|58|24|71|Market Trends|86234|特殊*符號|70%|Testing✓|Market|Trends|Data@Analysis
+2023-10-28 12:29:00|2023-10-28 12:44:00|18|9|43|Quality Assurance|91453|特殊*字符|40%|Übermensch✓|Quality|Data|With@Special
+2023-10-28 12:30:00|2023-10-28 12:45:00|71|30|85|Business Reports|63421|Ειδικός^Στήλη|85%|Testing✓|Business|Reports|Market@Data
+2023-10-28 12:31:00|2023-10-28 12:46:00|33|15|58|Data Insights|35219|العربية@عنوان|25%|Déjà vu|Data|Insights|Data@Analysis
+2023-10-28 12:32:00|2023-10-28 12:47:00|62|28|79|Market Research|98721|Prüfung!Daten|95%|Testing✓|Market|Research|Data@Reports
+2023-10-28 12:33:00|2023-10-28 12:48:00|26|13|44|Product Development|34187|特殊*符號|50%|Übermensch✓|Product|Development|Market@Data
+2023-10-28 12:34:00|2023-10-28 12:49:00|79|36|91|Sales Performance|85642|Col-7|70%|Testing✓|Sales|Performance|Sample@Data
+2023-10-28 12:35:00|2023-10-28 12:50:00|42|20|67|Annual Report|21638|العربية@عنوان|40%|Déjà vu|Market|Data|Annual@Data
+2023-10-28 12:36:00|2023-10-28 12:51:00|94|38|54|Customer Feedback|93821|Prüfung!Daten|60%|Testing✓|Customer|Feedback|Market@Data
+2023-10-28 12:37:00|2023-10-28 12:52:00|37|14|66|Business Strategy|61245|Süper^Özel|75%|Übermensch✓|Business|Strategy|Data@Analysis
+2023-10-28 12:38:00|2023-10-28 12:53:00|63|29|78|Competitive Analysis|45732|Español!Datos|70%|Testing✓|Competitive|Data|Market@Research
+2023-10-28 12:39:00|2023-10-28 12:54:00|25|12|59|Data Quality|32187|中文字符|80%|Déjà vu|Data|Quality|Data@Insights
+2023-10-28 12:40:00|2023-10-28 12:55:00|80|37|92|Product Inventory|78564|テスト!データ|95%|Testing✓|Product|Inventory|Market@Data
+2023-10-28 12:41:00|2023-10-28 12:56:00|45|21|73|Financial Data|45678|معطيات^خاصة|60%|Übermensch✓|Financial|Data|Data@Analysis
+2023-10-28 12:42:00|2023-10-28 12:57:00|72|33|87|Market Trends|23451|特殊*符號|70%|Testing✓|Market|Trends|Market@Data
+2023-10-28 12:43:00|2023-10-28 12:58:00|33|16|63|Quality Assurance|56312|特殊*字符|85%|Übermensch✓|Quality|Data|Quality@Data
+2023-10-28 12:44:00|2023-10-28 12:59:00|58|27|71|Business Reports|87621|Ειδικός^Στήλη|40%|Testing✓|Business|Reports|Business@Reports
+2023-10-28 12:45:00|2023-10-28 13:00:00|27|13|52|Data Insights|34129|العربية@عنوان|75%|Übermensch✓|Data|Insights|Data@Insights
+2023-10-28 12:46:00|2023-10-28 13:01:00|61|29|74|Market Research|91283|Prüfung!Daten|50%|Testing✓|Market|Research|Market@Data
+2023-10-28 12:47:00|2023-10-28 13:02:00|29|14|67|Product Development|12836|特殊*符號|60%|Übermensch✓|Product|Development|Product@Data
+2023-10-28 12:48:00|2023-10-28 13:03:00|76|38|92|Sales Performance|38291|Col-7|90%|Testing✓|Sales|Performance|Sales@Data
+2023-10-28 12:49:00|2023-10-28 13:04:00|46|22|81|Annual Report|72316|العربية@عنوان|70%|Übermensch✓|Market|Data|Annual@Data
+2023-10-28 12:50:00|2023-10-28 13:05:00|93|36|63|Customer Feedback|16389|Prüfung!Daten|55%|Testing✓|Customer|Feedback|Customer@Data
+2023-10-28 12:51:00|2023-10-28 13:06:00|38|17|68|Business Strategy|53127|Süper^Özel|85%|Übermensch✓|Business|Strategy|Business@Data
+2023-10-28 12:52:00|2023-10-28 13:07:00|65|31|78|Competitive Analysis|87612|Español!Datos|60%|Testing✓|Competitive|Data|Competitive@Data
+2023-10-28 12:53:00|2023-10-28 13:08:00|24|11|54|Data Quality|42176|中文字符|40%|Übermensch✓|Data|Quality|Data@Data
+2023-10-28 12:54:00|2023-10-28 13:09:00|84|40|79|Product Inventory|98431|テスト!データ|90%|Testing✓|Product|Inventory|Product@Data
+2023-10-28 12:55:00|2023-10-28 13:10:00|40|20|72|Financial Data|31648|معطيات^خاصة|70%|Übermensch✓|Financial|Data|Financial@Data
+2023-10-28 12:56:00|2023-10-28 13:11:00|77|36|88|Market Trends|78142|特殊*符號|50%|Testing✓|Market|Trends|Market@Data
+2023-10-28 12:57:00|2023-10-28 13:12:00|36|17|71|Quality Assurance|42196|特殊*字符|85%|Übermensch✓|Quality|Data|Quality@Data
+2023-10-28 12:58:00|2023-10-28 13:13:00|61|29|74|Business Reports|67291|Ειδικός^Στήλη|60%|Testing✓|Business|Reports|Business@Data
+2023-10-28 12:59:00|2023-10-28 13:14:00|28|13|59|Data Insights|92183|العربية@عنوان|75%|Übermensch✓|Data|Insights|Data@Data
+2023-10-28 13:00:00|2023-10-28 13:15:00|69|32|76|Market Research|81263|Prüfung!Daten|80%|Testing✓|Market|Research|Market@Data
+2023-10-28 13:01:00|2023-10-28 13:16:00|33|16|68|Product Development|46123|特殊*符號|65%|Übermensch✓|Product|Development|Product@Data
+2023-10-28 13:02:00|2023-10-28 13:17:00|73|37|84|Sales Performance|92481|Col-7|70%|Testing✓|Sales|Performance|Sales@Data
+2023-10-28 13:03:00|2023-10-28 13:18:00|47|22|72|Annual Report|71736|العربية@عنوان|40%|Übermensch✓|Market|Data|Annual@Data
+2023-10-28 13:04:00|2023-10-28 13:19:00|91|39|68|Customer Feedback|68429|Prüfung!Daten|85%|Testing✓|Customer|Feedback|Customer@Data
+2023-10-28 13:05:00|2023-10-28 13:20:00|34|15|61|Business Strategy|62317|Süper^Özel|60%|Übermensch✓|Business|Strategy|Business@Data
+2023-10-28 13:06:00|2023-10-28 13:21:00|76|38|89|Competitive Analysis|28194|Español!Datos|70%|Testing✓|Competitive|Data|Competitive@Data

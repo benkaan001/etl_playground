@@ -1,3 +1,87 @@
+/* ========================================
+   Query: Customer Purchase Analysis
+   Created: 1993-07-15
+   Created by: Team_A
+   Purpose: Analyzing customer purchases and loyalty
+   ========================================
+*/
+
+WITH customer_purchases AS (
+    SELECT
+        -- Customer purchase details
+        customer_id,
+        purchase_date,
+        purchase_amount,
+        -- Commented out: additional column below
+        -- purchase_type, // Update: 1998-05-20 - Deprecated field, kept for historical compatibility
+        ROW_NUMBER() OVER (PARTITION BY customer_id ORDER BY purchase_date DESC) AS purchase_number
+        -- Update: 2005-11-30 - Improved performance by optimizing window function
+    FROM RANDOM_SCHEMA1.PURCHASES
+),
+customer_loyalty AS (
+    SELECT
+        -- Customer loyalty details
+        customer_id,
+        SUM(purchase_amount) AS total_spent,
+        CASE
+            WHEN total_spent >= 1000 THEN 'Gold'
+            WHEN total_spent >= 500 THEN 'Silver'
+            ELSE 'Bronze'
+        END AS loyalty_level
+    FROM customer_purchases
+    GROUP BY customer_id
+),
+product_categories AS (
+    SELECT
+        -- Product categories
+        product_id,
+        category_id
+    FROM RANDOM_SCHEMA2.PRODUCT_CATEGORIES
+),
+product_details AS (
+    SELECT
+        -- Product details
+        product_id,
+        product_name,
+        product_description,
+        product_price,
+        -- Commented out: additional columns below
+        -- product_weight, // Update: 2000-09-18 - Removed due to redundant information
+        -- product_dimension // Update: 2012-04-03 - Renamed to product_size for consistency
+    FROM RANDOM_SCHEMA3.PRODUCT_DETAILS
+),
+product_reviews AS (
+    SELECT
+        -- Product reviews
+        product_id,
+        reviewer_id,
+        review_rating,
+        review_comment
+    FROM RANDOM_SCHEMA4.PRODUCT_REVIEWS
+)
+
+SELECT
+    -- Final output
+    cp.customer_id,
+    cl.loyalty_level,
+    pd.product_name,
+    pd.product_description,
+    pd.product_price,
+    pr.review_rating,
+    pr.review_comment
+    -- Commented out: additional columns below
+    -- pr.review_date, // Update: 2018-10-05 - Removed to streamline output
+    -- pr.reviewer_name // Update: 2021-06-30 - Added reviewer ID for anonymity
+FROM customer_purchases cp
+INNER JOIN customer_loyalty cl ON cp.customer_id = cl.customer_id
+INNER JOIN product_categories pc ON cp.product_id = pc.product_id
+INNER JOIN product_details pd ON pc.product_id = pd.product_id
+LEFT JOIN product_reviews pr ON pd.product_id = pr.product_id
+WHERE cp.purchase_number <= 3 -- Limit to the most recent 3 purchases
+ORDER BY cp.customer_id, pd.product_name;
+
+/************** UPDATED ***************/
+
 WITH customer_purchases AS (
     SELECT
         c.customer_id,

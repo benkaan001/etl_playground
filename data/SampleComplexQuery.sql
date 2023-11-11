@@ -110,7 +110,7 @@ WITH customer_purchases AS (
         pr.reviewer_id,
         pr.review_rating,
         AVG(pr.review_rating) OVER (PARTITION BY pr.product_id) AS avg_rating
-    FROM PRODUCT_REVEIES_SCHEMA.product_reviews AS pr
+    FROM PRODUCT_REVIEWS_SCHEMA.product_reviews AS pr
 ), product_recommendations AS (
     SELECT
         cp.customer_id,
